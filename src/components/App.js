@@ -1,10 +1,10 @@
-import react, from "react"; 
+import React from 'react';
 
 function App() {
   return (
     <>
       <div class="container">
-        <Textform heading="Enter the Text to Analyze" />
+        <h1> Enter the Text to Analyze" </h1>
       </div>
     </>
   );

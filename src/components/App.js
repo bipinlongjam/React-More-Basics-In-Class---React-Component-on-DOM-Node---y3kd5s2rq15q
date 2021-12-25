@@ -1,11 +1,13 @@
 import react, from "react"; 
 
-function App(){
-  return(
-  <div>
-    <p>Now I can render any React component on any DOM node I want using ReactDOM<p/>
-    </div>
-  )
+function App() {
+  return (
+    <>
+      <div class="container">
+        <Textform heading="Enter the Text to Analyze" />
+      </div>
+    </>
+  );
 }
-export default App;
 
+export default App;

@@ -1,11 +1,12 @@
 import React from 'react';
 
+export default App;
 function App() {
   return (
-        <>
-        <h1> Enter the Text to Analyze" </h1>
-     </>
+    <div className="App">
+      <h1>Hello CodeSandbox</h1>
+      <h2>Start editing to see some magic happen!</h2>
+    </div>
   );
 }
-
 export default App;
